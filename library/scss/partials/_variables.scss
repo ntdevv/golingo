@@ -1,0 +1,22 @@
+/* Media Query Variables
+================================================ */
+	$min481: "only screen and (min-width: 481px)";
+	$min768: "only screen and (min-width: 768px)";
+	$min992: "only screen and (min-width: 992px)";
+	$min1200: "only screen and (min-width: 1200px)";
+	$min1400: "only screen and (min-width: 1400px)";
+
+	$max480: "only screen and (max-width: 480px)";
+	$max767: "only screen and (max-width: 767px)";
+	$max991: "only screen and (max-width: 991px)";
+	$max1199: "only screen and (max-width: 1199px)";
+
+/* Colour Variables
+================================================ */
+	$primary: #000;
+	$secondary: #000;
+	$text: #333;
+	$border: #f1f1f1;
+
+	$link-color: $primary;
+	$link-hover: darken($link-color, 9%);

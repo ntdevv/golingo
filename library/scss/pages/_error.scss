@@ -1,0 +1,13 @@
+	.error404 {
+			&__content {
+				padding: 100px 0 150px;
+				text-align: center;
+
+			h1 {
+				font-size: 7em;
+				color: $primary;
+				line-height: 170px;
+				margin-bottom: 30px;
+			}
+		}
+	}

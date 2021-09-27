@@ -1,0 +1,118 @@
+
+.masthead{
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background: #0a0a0a8f;
+    color:#f0f0f0f0;
+    z-index: 2;
+    transition: 0.5s;
+    padding:100px; 
+    &__overlay{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 100%;
+        background-color: var(--blue2);
+        mix-blend-mode: overlay;
+        /* Use RGBA below if above dosn't work */
+        /* background-color: RGBA(0,0,0,0.5); */
+    }
+    &__video{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.7;
+    }
+    &__text{
+        position: relative;
+        z-index:3;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        &-title{
+            font-size: 5rem;
+            font-weight: 800;
+            /* line-height: 1rem; */
+        }
+        &-subtitle{
+            font-size: 1.5rem;
+            font-weight: 500;
+            /* line-height: 1rem; */
+            margin:20px 0;
+            max-width: 600px;
+        }
+    }
+    &__btns{
+        display:flex;   
+        justify-content: space-evenly;
+        width:80%;
+        &-social{
+            position: relative;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:10px;
+        }
+        .social_link{
+            list-style: none;
+            display: inline-block;
+            /* filter:invert(1); */
+            transform: scale(0.5);
+            transition: 0.5s;
+            
+        }
+        .social_link:hover{
+            transform: scale(0.5) translateY(-20px);
+        
+        }
+        .social_link img{
+            object-fit: contain;
+            width:256px;
+            height: 256px;
+        }
+    }
+    &__CTA{
+        display: inline-block;
+        font-size: 1.2rem;
+        background-color:#f0f0f0f0 ;
+        padding:10px 30px;
+        text-decoration: none;
+        margin-top:10px;
+        letter-spacing: 2px;
+        transition: 0.2s;
+        color:var(--blue2) ;
+        border: var(--blue2) solid 2px;
+        border-radius: 10px;
+        &:hover{
+            letter-spacing: 6px;
+            border: var(--blue2) solid 5px;
+            border-radius: 40px;
+
+        }
+    }
+    
+}
+@media(max-width:798px){
+    .masthead, .header{
+        padding: 40px;
+    }
+    .masthead__text_title{
+        font-size:3rem;
+    }
+    .masthead__text_subtitle{
+        font-size: 2rem;
+    }
+    .masthead__text_subsubtitle{
+        font-size: 1.1rem;
+    }
+
+}

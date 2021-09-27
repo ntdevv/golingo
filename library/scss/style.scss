@@ -1,0 +1,23 @@
+/* Third Party Payload
+================================================ */
+	@import "vendor/payload";
+
+/* Partials
+================================================ */
+	@import "partials/reset";
+	@import "partials/variables";
+	@import "partials/typography";
+	@import "partials/functions";
+	@import "partials/global";
+
+/* Components Payload
+================================================ */
+	@import "components/payload";
+
+/* Components Payload
+================================================ */
+	@import "pages/payload";
+
+/* globals
+================================================ */
+	@import "globals";

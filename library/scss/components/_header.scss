@@ -1,0 +1,89 @@
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    z-index:10;
+    display:flex;
+    align-items: center;
+    /* below is left hand side */
+    justify-content: space-between;
+    background:transparent;
+    transition: all ease-out .5s;
+    z-index:5;
+	color:white;
+	&.scrolled{
+		/* Change to RGBA */
+		background-color: red;
+		padding:10px 100px;
+		// Change below to somthing more approprate
+		color:black;
+	}
+	&__toggle{
+		position:relative;
+		width:60px;
+		height: 60px;
+		background:url('../img/header-menu.png');
+		background-repeat: no-repeat;
+		background-size:30px;
+		background-position: center;
+		cursor:pointer;
+		transition: all 0.5s;
+		&:hover{
+			transform: scale(1.2);
+		}
+		&.__open{
+		background:url('../img/header-close.png');
+		background-repeat: no-repeat;
+		background-size:25px;
+		background-position: center;
+		cursor:pointer; 
+		margin-right:300px;
+		}
+	}
+	&__logo{
+	text-transform: capitalize;
+	cursor: pointer;
+	}
+	&__btn{
+		padding:20px;
+
+		&s-container{
+			width:100%;
+		}
+		&s{
+		display: flex;
+    	flex-direction: row;
+    	list-style: none;
+    	justify-content: space-around;
+    	align-items: center;
+		}
+
+	}
+}
+.sliding_menu{
+    z-index: 0;
+    position: absolute;
+    top:0;
+    right:0;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+	&-links{
+		position: relative;
+    	list-style: none;
+	}
+	&-link{
+		text-decoration: none;
+    	color:black;
+    	font-size:2rem;
+		&:hover{
+			color:var(--blue2);
+
+		}
+	}
+
+}

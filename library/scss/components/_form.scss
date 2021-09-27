@@ -1,0 +1,90 @@
+	div.wpcf7 {
+		position: relative;
+
+		.ajax-loader {
+			bottom: 13px;
+			right: 0;
+			left: 0;
+			margin: 0 auto;
+			width: 200px;
+			height: 25px;
+			position: absolute;
+			background: $primary url(../images/icons/loading.gif) center /contain no-repeat;
+		}
+
+		div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+			display: none!important;
+		}
+
+		div.wpcf7-mail-sent-ok {
+			border: none;
+			margin: 40px 0 0;
+			padding: 0;
+			text-align: center;
+			font: 1.5em $font-heading;
+			font-weight: bold;
+		}
+
+		.wpcf7-form-control-wrap {
+			display: block;
+			margin-bottom: 15px;
+		}
+
+		.wpcf7-form-control {
+			-webkit-appearance: none;
+			-moz-appearance:    none;
+			appearance:         none;
+
+			&:not(.wpcf7-submit) {
+				width: 100%;
+				border: none;
+				background: #f9f9f9;
+				outline: none;
+				resize: none;
+				font: 1em $font-default;
+				height: 60px;
+				padding: 0 20px;
+
+				&.wpcf7-not-valid {
+					border: 1px solid #e38a8c;
+
+					+ span {
+						font-size: 0;
+						position: absolute;
+						width: 60px;
+						height: 60px;
+						top: 0;
+						right: 0;
+						background-image: url(../images/icons/cross-red.svg);
+						background-size: 12.5px;
+						background-position: center;
+						background-repeat: no-repeat;
+					}
+				}
+			}
+
+			&.wpcf7-textarea {
+				height: 210px;
+				padding: 20px;
+			}
+
+			&.wpcf7-select {
+   				background-image: url(../images/icons/arrow-down.svg);
+   				background-position: 98% center;
+   				background-size: auto 8px;
+   				background-repeat: no-repeat;
+			}
+
+			&.wpcf7-submit {
+				display: block;
+				border: none;
+				outline: none;
+				height: 60px;
+				width: 100%;
+				background: $primary;
+				text-transform: uppercase;
+				font: 1em $font-default;
+				color: white;
+			}
+		}
+	}
