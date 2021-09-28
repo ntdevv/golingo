@@ -1,16 +1,6 @@
 <?php
-$card_1_title = '';
-$card_1_subtitle = '';
-$card_1_button_text = '';
-$card_1_button_link = '';
-$card_2_title = '';
-$card_2_subtitle = '';
-$card_2_button_text = '';
-$card_2_button_link = '';
-$card_3_title = '';
-$card_3_subtitle = '';
-$card_3_button_text = '';
-$card_3_button_link = '';
+$first_card = get_sub_field('first_card');
+
 ?>
 
 
