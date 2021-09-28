@@ -5720,11 +5720,6 @@ section.__open {
     font-size: 1.1rem;
   }
 
-  .card:nth-child(2) {
-    /* align-self: flex-start; */
-    /*flex-direction: row-reverse;*/
-  }
-
   .cards-container {
     align-items: center;
     padding: 40px;
