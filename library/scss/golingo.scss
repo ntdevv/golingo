@@ -199,7 +199,7 @@
     border-radius: 40px;
     /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
     background: #ffffff;
-    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+    box-shadow: 1px 10px 10px #cbced1, -13px -13px 20px #ffffff;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     /*flex-wrap: wrap;*/
   }
@@ -273,7 +273,7 @@
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
     transition: 0.5s;
   }
-  
+
   .btn:hover {
     background: #0F2459;
   }
