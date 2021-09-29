@@ -5253,6 +5253,18 @@ div.wpcf7 .wpcf7-form-control.wpcf7-submit {
     font-size: 1.1rem;
   }
 }
+.contact_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact_section-container {
+  border: solid black 1px;
+  height: 100%;
+  width: 60%;
+}
+
 /* Components Payload
 ================================================ */
 .error404__content {
@@ -5811,12 +5823,11 @@ section.__open {
   color: white;
   padding: 15px;
   margin-right: 20px;
-  min-width: 75px; 
-  min-height: 75px; 
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   /* margin:0 auto; */
   box-shadow: 0px 0px #5f5f5f, 0px 0px 0px 0px #ecf0f3, 8px 8px 10px #a7aaaf, -8px -8px 10px #fff;
-  object-fit: cover;
 }
 
 /*.container {*/

@@ -1,5 +1,6 @@
 <?php
-$testimonialsContent = get_field('testimonials_content');
+$testimonials = get_sub_field('testimonial-block');
+var_dump($testimonials)
 
 ?>
 

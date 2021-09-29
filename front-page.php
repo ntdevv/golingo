@@ -17,7 +17,7 @@ if( have_rows('page_blocks') ):
                 case 'how_it_works':
                     include partial('howitworks.php');
                     break;
-                case 'testimonials':
+                case 'testimonial-block':
                     include partial('testimonials.php');
                     break;
                 case 'faq':

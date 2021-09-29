@@ -1,17 +1,10 @@
 <?php
-$contactContent = get_field('contact_content');
-$contactHeading = get_field('contact_heading');
-
+$contact_title = get_sub_field('contact_title');
+$contact_content = get_sub_field('contact_content');
 ?>
 <section class="contact_section">
-        <div class="contact_heading">
-            <h1>
-                <?= $contactHeading; ?>
-            </h1>
-        </div>
-        <div class="contact_content">
-            <p>
-               <?= $contactContent; ?> 
-            </p>
-        </div>
+    <div class="content_section-container">
+        <div class="contact_section-title"><?=$contact_title?></div>
+        <div class="contact_section-content"><?=$contact_content?></div>
+    </div>
 </section>
