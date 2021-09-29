@@ -5253,16 +5253,22 @@ div.wpcf7 .wpcf7-form-control.wpcf7-submit {
     font-size: 1.1rem;
   }
 }
-.contact_section {
+.contact_section, .contact_section-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.contact_section-container {
-  border: solid black 1px;
+.contact_section-container, .contact_section-container-container {
   height: 100%;
   width: 60%;
+  padding: 20px;
+}
+.contact_section-title, .contact_section-container-title {
+  font-size: 2rem;
+}
+.contact_section-content, .contact_section-container-content {
+  font-size: 1.2rem;
 }
 
 /* Components Payload

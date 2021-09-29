@@ -1,11 +1,18 @@
-.contact_section {
+
+.contact_section, .contact_section-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     &-container{
-        border: solid black 1px;
         height: 100%;
         width: 60%;
+        padding:20px;
+    }
+    &-title{
+        font-size:2rem;
+    }
+    &-content{
+        font-size: 1.2rem;
     }
 }
