@@ -49,9 +49,9 @@
                 		
                 		
             		</div>
-            	<div class="header__toggle"></div>
+            	<!-- <div class="header__toggle"></div> -->
 			</header>
-	       <div class="sliding_menu">
+	       <!-- <div class="sliding_menu"> -->
         	<!--<ui class="sliding_menu-links">-->
          <!--       <li class="sliding_menu-link"><a href="/">Home</a></li>-->
          <!--       <li class="sliding_menu-link"><a href="/blog">Blog</a></li>-->

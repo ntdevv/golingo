@@ -1,5 +1,7 @@
 <?php get_header(); ?>
-
+<?php
+include(get_template_directory(). '/partials/custom_masthead.php');
+?>
 			<div id="content">
 
 				<div id="inner-content" class="wrap cf">

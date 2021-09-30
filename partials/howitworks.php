@@ -1,11 +1,10 @@
 <?php
-$hiw_title = get_sub_field('hit_title');
+$hiw_title = get_sub_field('hiw_title');
 $first_image = get_sub_field('first_image');
 $second_image = get_sub_field('second_image');
 $first_text_block = get_sub_field('first_text_block');
 $second_text_block = get_sub_field('second_text_block');
 $third_text_block = get_sub_field('third_text_block');
-var_dump($second_text_block);   
 ?>
 <section class="how_it_works">
 
@@ -21,17 +20,17 @@ var_dump($second_text_block);
             <h2 class="title"><?=$hiw_title?></h2>
             <div class="content_right-text-container">
                 <div class="content_right-text-block">
-                    <div class="content_right-text-title"><img src="<?=$first_text_block['icon']?>" alt="Icon" class="content_right-text-icon"><?=$first_text_block['title']?></div>
+                    <div class="content_right-text-title"><img src="<?=$first_text_block['icon']?>" class="content_right-text-icon"><?=$first_text_block['title']?></div>
                     <div class="content_right-text-subtitle"><?=$first_text_block['content']?>
                     </div>
                 </div>
                 <div class="content_right-text-block">
-                    <div class="content_right-text-title"><img src="<?=$second_text_block['icon']?>" alt="Icon" class="content_right-text-icon"><?=$second_text_block['title']?></div>
+                    <div class="content_right-text-title"><img src="<?=$second_text_block['icon']?>" class="content_right-text-icon"><?=$second_text_block['title']?></div>
                     <div class="content_right-text-subtitle"><?=$second_text_block['content']?>
                     </div>
                 </div>
                 <div class="content_right-text-block">
-                    <div class="content_right-text-title"><img src="<?=$third_text_block['icon']?>" alt="Icon" class="content_right-text-icon"><?=$third_text_block['title']?></div>
+                    <div class="content_right-text-title"><img src="<?=$third_text_block['icon']?>" class="content_right-text-icon"><?=$third_text_block['title']?></div>
                     <div class="content_right-text-subtitle"><?=$third_text_block['content']?>
                     </div>
                 </div>
