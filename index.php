@@ -1,6 +1,17 @@
 <?php get_header(); ?>
-<?php
-include(get_template_directory(). '/partials/custom_masthead.php'); ?>
+<section class="contact_page"  style="background-image: url(https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg);background-size:cover;">
+    <div class="contact_page-masthead">
+        <div class="contact_page-masthead-container">
+            <div class="contact_page-masthead-text">
+                    <div class="contact_page-masthead-overlay" style="position:absolute; top:0; left:0;width:100%; height:100%;z-index:2;background-color:black; mix-blend-mode:overlay;"></div>
+                    <div class="contact_page-masthead-text-title" style="z-index:3; color:white; font-size:3rem">
+
+                    Golingo Blog
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
 
 			<div class="container">
 

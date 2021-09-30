@@ -350,3 +350,17 @@ section {
     // }
   }
 }
+.blog {
+  .container {
+    margin: 50px auto;
+    .no-widgets {
+      display: none;
+    }
+    article {
+      margin-bottom: 40px;
+      h1 {
+        font-weight: bold;
+      }
+    }
+  }
+}

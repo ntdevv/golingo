@@ -5833,4 +5833,17 @@ section.__open {
   display: flex;
   flex-direction: column;
 }
+
+.blog .container {
+  margin: 50px auto;
+}
+.blog .container .no-widgets {
+  display: none;
+}
+.blog .container article {
+  margin-bottom: 40px;
+}
+.blog .container article h1 {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map*/
