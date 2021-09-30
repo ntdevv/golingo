@@ -1,11 +1,10 @@
 <?php
 $testimonials = get_sub_field('testimonial-block');
-var_dump($testimonials)
 
 ?>
 
 <section class="testimonials">
-
+<div class="container">
 <div class="content_image-left">
             <div class="content_image-left-image">
             <img src="https://staging.golingo.co.uk/wp-content/uploads/2021/09/Welcome-to-Golingo.png" alt="parrot" class="content_image-image-img">
@@ -35,5 +34,6 @@ var_dump($testimonials)
                 </div>
             </div>
             <div class="btn">Learn More</div>
+        </div>
         </div>
         </section>

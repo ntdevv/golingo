@@ -73,7 +73,7 @@
             "key": "field_615097fc88cd8",
             "label": "Twitter",
             "name": "twitter",
-            "type": "url",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -83,7 +83,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": ""
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
@@ -103,5 +106,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1632957431
+    "modified": 1633021768
 }

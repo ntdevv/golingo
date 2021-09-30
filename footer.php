@@ -2,6 +2,7 @@
 $twitter = get_field('twitter', 'options');
 $linkedin = get_field('linkedin', 'options');
 $facebook = get_field('facebook', 'options');
+
 ?>
 			<footer class="footer">
 				<nav role="navigation">
@@ -19,9 +20,9 @@ $facebook = get_field('facebook', 'options');
 					)); ?>
 				</nav>
 				<div class="social-footer">
-				    <a href src="<?= $facebook; ?>"><i class="fab fa-facebook-f"></i></a>
-				    <a href src="<?= $linkedin; ?>"><i class="fab fa-linkedin-in"></i></a>
-				    <a href src="<?= $twitter; ?>"><i class="fab fa-twitter"></i></a>
+				    <a href="<?= $facebook; ?>"><i class="fab fa-facebook-f"></i></a>
+				    <a href="<?= $linkedin; ?>"><i class="fab fa-linkedin-in"></i></a>
+				    <a href="<?= $twitter;?>"><i class="fab fa-twitter"></i></a>
 				</div>
 				<div class="legal">
 					<p class="source-copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All Rights Reserved.</p>

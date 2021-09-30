@@ -7,7 +7,7 @@ $second_text_block = get_sub_field('second_text_block');
 $third_text_block = get_sub_field('third_text_block');
 ?>
 <section class="how_it_works">
-
+<div class="container">
  <div class="content_image-left">
             <div class="content_image-left-image">
             <img src="<?=$first_image?>" alt="parrot" class="content_image-image-img">
@@ -38,4 +38,5 @@ $third_text_block = get_sub_field('third_text_block');
             </div>
             <div class="btn">Learn More</div>
         </div>
+</div>
         </section>

@@ -1,33 +1,12 @@
-
-/* globals
-================================================ */
-:root {
-    --blue1:#cbeaff;
-    --blue2:#0196FD;
-    --blue3:#0F2459;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  section {
+section {
     position: relative;
-      transition: 0.5s;
-  
-    right: 0;
     width: 100%;
-    display: flex;
     z-index: 2;
   }
   section.__open {
     right: 300px;
   }
   
-  /*# sourceMappingURL=style.css.map*/
   .header {
     position: fixed;
     top: 0;
@@ -40,7 +19,7 @@
     /* below is left hand side */
     justify-content: center;
     background: transparent;
-    transition: all ease-out 0.5s;
+    // transition: all ease-out 0.5s;
     z-index: 5;
     color: white;
   }
@@ -73,12 +52,7 @@
     margin-right: 300px;
   }
   .header__logo {
-    text-transform: capitalize;
-    cursor: pointer;
-    
-  }
-  .header__logo-image{
-      height:80px;
+    height:80px;
     width:80px;
   }
   .header__btn {
@@ -178,6 +152,7 @@
         }
   }
   }
+
   @media screen and (max-width: 768px) {
       .header__btns-container {
           display: none;
@@ -218,24 +193,6 @@
   .card-subtitle {
     font-size: 1.2rem;
   }
-  .cards-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px;
-    width:100%;
-  }
-  .card-icon-image {
-    font-size: 5rem;
-    border-radius: 50%;
-    color: white;
-    padding: 15px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    /* margin:0 auto; */
-    box-shadow: 0 0 #5f5f5f, 0 0 0 0 #ecf0f3, 8px 8px 10px #a7aaaf, -8px -8px 10px #fff;
-  }
   
   @media screen and (max-width: 600px) {
     .cards-container {
@@ -244,7 +201,6 @@
   
     .card {
       width: 100%;
-      /*flex-direction: row;*/
       height: 40vh;
       margin-bottom: 40px;
     }
@@ -284,18 +240,11 @@
   .btn:active {
     background: #0196FD;
   }
-  .how_it_works, .testimonials, .faq{
-      display: flex;
-      flex-direction: row;
-      padding:50px;
-  }
   .faq{
       display:flex;
       flex-direction:row-reverse;
   }
-  .testimonials{
-      background-color:var(--blue1);
-  }
+
   
       
   
@@ -342,7 +291,26 @@
     height: 25px;
     border-radius: 50%;
   }
-  /*.container {*/
-  /*    margin-left: 217px;*/
-  /*    margin-right: 217px;*/
-  /*}*/
+  .how_it_works {
+    .container {
+      display: flex;
+      margin: 50px auto;
+    }
+  }
+.testimonials {
+  background-color:var(--blue1);
+  padding: 10px;
+  .container {
+    display: flex;
+    margin: 50px auto;
+  }
+}
+.cards {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    margin: 50px auto;
+  }
+}

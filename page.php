@@ -3,7 +3,6 @@
 include(get_template_directory(). '/partials/custom_masthead.php');
 ?>
     <section class="main-content">
-		<div class="container">
 			<?php if( have_rows('page_blocks') ):
 
 				while ( have_rows('page_blocks') ) : the_row();
@@ -39,7 +38,6 @@ include(get_template_directory(). '/partials/custom_masthead.php');
 		endwhile;
 		endif; 
 			?>	
-		</div>
 		</section>
 
 <?php get_footer(); ?>

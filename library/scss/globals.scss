@@ -10,16 +10,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
-section{
-    position: absolute;
-    right: 0;
-    width: 100%;
-    display:flex;
-     z-index: 2;
-     min-height: 60vh;
-     &.__open{
-        right:300px;
-
-     }
-}
+  .container {
+      margin-left: 217px;
+      margin-right: 217px;
+  }

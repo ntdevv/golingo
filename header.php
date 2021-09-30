@@ -21,16 +21,8 @@
 	<body <?php body_class(); ?>>
 
 			<header class="header">
-				
-				<h2 class="header__logo">
-				<img class="header__logo-image"src="https://staging.golingo.co.uk/wp-content/uploads/2021/09/Golingo-logo.png" alt="Golingo Logo">
-				</h2>
+				<img class="header__logo"src="https://staging.golingo.co.uk/wp-content/uploads/2021/09/Golingo-logo.png" alt="Golingo Logo">
             		<div class="header__btns-container">
-                		<!--<ul class="header__btns">-->
-                  <!--  		<li class="header_btn"><a href="/">Home</a></li>-->
-                  <!--  		<li class="header_btn"><a href="/blog">Blog</a></li>-->
-                  <!--  		<li class="header_btn"><a href="/contact">Contact</a></li>-->
-                		<!--</ul-->
                 		<nav class="header__btns">
 					<?php wp_nav_menu(array(
 				         'container' => true,                           // remove nav container
@@ -49,32 +41,22 @@
                 		
                 		
             		</div>
-            	<!-- <div class="header__toggle"></div> -->
 			</header>
-	       <!-- <div class="sliding_menu"> -->
-        	<!--<ui class="sliding_menu-links">-->
-         <!--       <li class="sliding_menu-link"><a href="/">Home</a></li>-->
-         <!--       <li class="sliding_menu-link"><a href="/blog">Blog</a></li>-->
-         <!--       <li class="sliding_menu-link"><a href="/contact">Contact</a></li>-->
-         <!--   </ui>-->
-            	<!--<ui class="sliding_menu-links">-->
-                
-					<?php 
-					add_filter('nav_menu_css_class',function($classes, $item, $args){ $classes[] = 'sliding_menu-link';return $classes;},1,3);
-					wp_nav_menu(array(
-				         'container' => false,                           // remove nav container
-				         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
-				         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-				         'menu_class' => 'sliding_menu-links',               // adding custom nav class
-				         'theme_location' => 'main-nav',                 // where it's located in the theme
-				         'before' => '',                                 // before the menu
-			               'after' => '',                                  // after the menu
-			               'link_before' => '',                            // before each link
-			               'link_after' => '',                             // after each link
-			               'depth' => 0,                                   // limit the depth of the nav
-				         'fallback_cb' => '' ,                            // fallback function (if there is one)
+					 <?php 
+					// add_filter('nav_menu_css_class',function($classes, $item, $args){ $classes[] = 'sliding_menu-link';return $classes;},1,3);
+					// wp_nav_menu(array(
+				    //      'container' => false,                           // remove nav container
+				    //      'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+				    //      'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
+				    //      'menu_class' => 'sliding_menu-links',               // adding custom nav class
+				    //      'theme_location' => 'main-nav',                 // where it's located in the theme
+				    //      'before' => '',                                 // before the menu
+			        //        'after' => '',                                  // after the menu
+			        //        'link_before' => '',                            // before each link
+			        //        'link_after' => '',                             // after each link
+			        //        'depth' => 0,                                   // limit the depth of the nav
+				    //      'fallback_cb' => '' ,                            // fallback function (if there is one)
 				             
-					)); ?>
-					<!--</ui>-->
+					// )); ?> 
         </div>
 	</header>
