@@ -1,7 +1,9 @@
 <?php /* Template Name: Contact Page Template */
 get_header();
 ?>
-
+<?php
+include(get_template_directory(). '/partials/custom_masthead.php');
+?>
 <section class="contact_page">
     <div class="contact_page-masthead">
         <div class="contact_page-masthead-container">
@@ -44,5 +46,3 @@ endwhile;
 endif; 
 get_footer();
 ?>	
-
-?>

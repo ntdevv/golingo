@@ -186,7 +186,7 @@
                                 },
                                 {
                                     "key": "field_61521da6246a2",
-                                    "label": "icon",
+                                    "label": "Icon",
                                     "name": "icon",
                                     "type": "image",
                                     "instructions": "",
@@ -197,15 +197,15 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "return_format": "array",
+                                    "return_format": "url",
                                     "preview_size": "medium",
                                     "library": "all",
-                                    "min_width": 0,
-                                    "min_height": 0,
-                                    "min_size": 0,
-                                    "max_width": 0,
-                                    "max_height": 0,
-                                    "max_size": 0,
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
                                     "mime_types": ""
                                 }
                             ]
@@ -280,7 +280,7 @@
                                 },
                                 {
                                     "key": "field_61521dd4246a3",
-                                    "label": "icon",
+                                    "label": "Icon",
                                     "name": "icon",
                                     "type": "image",
                                     "instructions": "",
@@ -291,15 +291,15 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "return_format": "array",
+                                    "return_format": "url",
                                     "preview_size": "medium",
                                     "library": "all",
-                                    "min_width": 0,
-                                    "min_height": 0,
-                                    "min_size": 0,
-                                    "max_width": 0,
-                                    "max_height": 0,
-                                    "max_size": 0,
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
                                     "mime_types": ""
                                 }
                             ]
@@ -953,5 +953,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1633028744
+    "modified": 1633033141
 }
