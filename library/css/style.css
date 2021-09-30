@@ -5711,8 +5711,8 @@ section.__open {
   outline: none;
   border: none;
   cursor: pointer;
-  width: 30%;
-  height: 40px;
+  height: auto;
+  height: auto;
   border-radius: 30px;
   font-size: 24px;
   font-weight: 700;
@@ -5722,6 +5722,7 @@ section.__open {
   background: #0196FD;
   box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
   transition: 0.5s;
+  padding: 5px;
 }
 
 .btn:hover {
@@ -5818,5 +5819,18 @@ section.__open {
 }
 .contact_form_section .container .contact_form_section-content {
   width: 70%;
+}
+
+.faq .container {
+  margin: 50px auto;
+  display: flex;
+}
+.faq .container .content-text-container {
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map*/

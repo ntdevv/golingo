@@ -21,6 +21,7 @@ $faq_image = get_sub_field('faq_image');
             <div class="btn">Learn More</div>
         </div>
     </div>
+    
         <div class="content_image">
             <img src="<?=$faq_image?>" alt="parrot" class="content_image-image-img">
         </div>         

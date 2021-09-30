@@ -220,8 +220,8 @@ section {
     outline: none;
     border: none;
     cursor: pointer;
-    width: 30%;
-    height: 40px;
+    height: auto;
+    height: auto;
     border-radius: 30px;
     font-size: 24px;
     font-weight: 700;
@@ -231,6 +231,7 @@ section {
     background: #0196FD;
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
     transition: 0.5s;
+    padding: 5px;
   }
 
   .btn:hover {
