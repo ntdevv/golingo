@@ -5259,6 +5259,7 @@ div.wpcf7 .wpcf7-form-control.wpcf7-submit {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
 .contact_section-container, .contact_section-container-container {
   height: 100%;

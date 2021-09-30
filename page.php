@@ -26,6 +26,9 @@ include(get_template_directory(). '/partials/custom_masthead.php');
 					case 'contact':
 						include partial('contact.php');
 						break;
+					case 'contact-form':
+						include partial('cf7_block.php');
+						break;
 				}
 
 			// elseif( get_row_layout() == 'card_block' ):
