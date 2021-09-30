@@ -1,15 +1,8 @@
 <?php /* Template Name: Contact Page Template */
 get_header();
 ?>
-<<<<<<< HEAD
-<?php
-include(get_template_directory(). '/partials/custom_masthead.php');
-?>
-<section class="contact_page">
-=======
 
 <section class="contact_page"  style="background-image: url(https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg);background-size:cover;">
->>>>>>> 0d7665ddaa97d7079ccdc71bb7f561b62ba76771
     <div class="contact_page-masthead">
         <div class="contact_page-masthead-container">
             <div class="contact_page-masthead-text">
@@ -53,10 +46,6 @@ include(get_template_directory(). '/partials/custom_masthead.php');
 
 endwhile;
 endif; 
-<<<<<<< HEAD
-get_footer();
-?>	
-=======
 
 ?>	
 
@@ -64,4 +53,3 @@ get_footer();
 get_footer();
 
 ?>
->>>>>>> 0d7665ddaa97d7079ccdc71bb7f561b62ba76771

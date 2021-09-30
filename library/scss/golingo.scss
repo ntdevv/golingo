@@ -246,18 +246,18 @@ section {
   }
 
   
-      
-  
   .content_image-left, .content_right-text{
-      width: 50%;
-      justify-content: space-between;
-      align-items: center;
-      text-align: center;
-      /* height: 80vh; */
-      display: flex;
-      flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+
+}   
   
-  }
+
   .content_image-left{
       justify-content: center;
   }
@@ -325,5 +325,27 @@ section {
     .contact_form_section-content {
       width: 70%;
     }
+  }
+}
+.faq {
+  .container {
+    margin: 50px auto;
+    display: flex;
+    .content-text-container {
+      width: 50%;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    // .content_image {
+    //   width: 50%;
+    //   justify-content: space-between;
+    //   align-items: center;
+    //   text-align: center;
+    //   display: flex;
+    //   flex-direction: column;
+    // }
   }
 }
