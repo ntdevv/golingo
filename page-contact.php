@@ -3,14 +3,16 @@ get_header();
 ?>
 
 <section class="contact_page">
-    <div class="contact_page-masthead">
+    <div class="contact_page-masthead" style="">
         <div class="contact_page-masthead-container">
             <div class="contact_page-masthead-text">
-            
+                <div class="contact_page-masthead-text-title">
+                    We Would Love To Hear From You
+                </div>
             </div>
         </div>
     </div>
-</section>
+ </section>
 
 <?php if( have_rows('page_blocks') ):
 
@@ -42,7 +44,10 @@ get_header();
 
 endwhile;
 endif; 
-get_footer();
+
 ?>	
+
+<?php 
+get_footer();
 
 ?>
