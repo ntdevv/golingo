@@ -631,7 +631,7 @@
                         {
                             "key": "field_6154aa01091bd",
                             "label": "Title",
-                            "name": "title",
+                            "name": "testimonial_title",
                             "type": "text",
                             "instructions": "",
                             "required": 0,
@@ -953,5 +953,9 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
+<<<<<<< HEAD
+    "modified": 1633035022
+=======
     "modified": 1633033141
+>>>>>>> development
 }
