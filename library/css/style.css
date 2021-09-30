@@ -5807,4 +5807,16 @@ section.__open {
   width: 100%;
   margin: 50px auto;
 }
+
+.contact_form_section .container {
+  display: flex;
+  margin: 50px auto;
+}
+.contact_form_section .container .contact_form_section-image {
+  width: 30%;
+  margin-right: 70px;
+}
+.contact_form_section .container .contact_form_section-content {
+  width: 70%;
+}
 /*# sourceMappingURL=style.css.map*/
