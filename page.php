@@ -7,8 +7,7 @@ include(get_template_directory(). '/partials/custom_masthead.php');
 
 				while ( have_rows('page_blocks') ) : the_row();
 
-		//     if( get_row_layout() == 'cards' ):
-		//     	require(get_template_directory().'/partials/cards.php');
+	
 				switch( get_row_layout())
 				{
 					case 'cards':
@@ -31,13 +30,7 @@ include(get_template_directory(). '/partials/custom_masthead.php');
 						break;
 				}
 
-			// elseif( get_row_layout() == 'card_block' ):
-			// 	
-		
 
-			
-
-			//endif;
 		endwhile;
 		endif; 
 			?>	
