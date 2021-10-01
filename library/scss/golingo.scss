@@ -303,7 +303,6 @@ section {
       .content_image-left, .content_right-text{
         width: 50%;
         align-items: center;
-        /* height: 80vh; */
         display: flex;
         flex-direction: column;
       }  
@@ -311,6 +310,13 @@ section {
         font-size: 60px;
         font-weight: bold;
         color: #222222;
+      }
+      .content_right-text-title {
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .btn {
+        margin-top: 50px;
       }
     }
   }
@@ -379,10 +385,14 @@ section {
         margin-top: 30px;
         .content_right-text-title {
           padding: 0;
+          color: #222222;
+          font-weight: 500;
+          font-size: 24px;
         }
         .content_right-text-subtitle {
           padding: 0;
           margin-top: 10px;
+          color: #666666;
         }
     }
   }

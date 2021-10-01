@@ -5255,23 +5255,26 @@ div.wpcf7 .wpcf7-form-control.wpcf7-submit {
     font-size: 1.1rem;
   }
 }
-.contact_section, .contact_section-container {
+.contact_section .contact_section-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-}
-.contact_section-container, .contact_section-container-container {
   height: 100%;
-  width: 60%;
-  padding: 20px;
+  width: 50%;
+  margin: 50px auto;
 }
-.contact_section-title, .contact_section-container-title {
-  font-size: 2rem;
+.contact_section .contact_section-container .contact_section-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
-.contact_section-content, .contact_section-container-content {
-  font-size: 1.2rem;
+.contact_section .contact_section-container .contact_section-content {
+  line-height: 2em;
+  text-align: center;
+}
+.contact_section .contact_section-container .btn {
+  margin-top: 50px;
 }
 
 .contact_page, .contact_page-masthead, .contact_page-masthead-text {
@@ -5797,7 +5800,6 @@ section.__open {
 .how_it_works .container .content_image-left, .how_it_works .container .content_right-text {
   width: 50%;
   align-items: center;
-  /* height: 80vh; */
   display: flex;
   flex-direction: column;
 }
@@ -5805,6 +5807,13 @@ section.__open {
   font-size: 60px;
   font-weight: bold;
   color: #222222;
+}
+.how_it_works .container .content_right-text-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+.how_it_works .container .btn {
+  margin-top: 50px;
 }
 
 .testimonials {
@@ -5871,10 +5880,14 @@ section.__open {
 }
 .faq .container .content-text-container .content_right-text-block .content_right-text-title {
   padding: 0;
+  color: #222222;
+  font-weight: 500;
+  font-size: 24px;
 }
 .faq .container .content-text-container .content_right-text-block .content_right-text-subtitle {
   padding: 0;
   margin-top: 10px;
+  color: #666666;
 }
 
 .blog .container {

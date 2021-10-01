@@ -1,6 +1,6 @@
 <?php
 $testimonials = get_sub_field('testimonials-content');
-$testimonial_title = get_sub_field('title');
+$testimonial_title = get_sub_field('testimonial_title');
 ?>
 
 <section class="testimonials">
