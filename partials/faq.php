@@ -18,7 +18,6 @@ $faq_image = get_sub_field('faq_image');
                     </div>
                 </div>';
             ?>
-            <div class="btn">Learn More</div>
         </div>
     </div>
     

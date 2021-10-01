@@ -1,6 +1,6 @@
 <?php
 $testimonials = get_sub_field('testimonials-content');
-$testimonial_title = get_sub_field('testimonial_title');
+$testimonial_title = get_sub_field('title');
 ?>
 
 <section class="testimonials">
@@ -12,21 +12,18 @@ $testimonial_title = get_sub_field('testimonial_title');
            
         </div>
         <div class="content_right-text">
-            <h2 class="title"><?=$testimonial_title?></h2>
+            <p class="title"><?=$testimonial_title?></p>
             <?php foreach($testimonials as $testimonial)
             
                 echo '<div class="content_right-text-container">
                 <div class="content_right-text-block">
                     <div class="content_right-text-title">“'.$testimonial['author'].'”</div>
-                    <div class="content_right-text-subtitle">
-                    '.$testimonial['comment'].'
-                    </div>
+                    <div class="content_right-text-subtitle">'.$testimonial['comment'].'</div>
                 </div>';
             ?>
             
                
             </div>
-            <div class="btn">Learn More</div>
         </div>
         </div>
         </section>

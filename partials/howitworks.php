@@ -20,17 +20,17 @@ $third_text_block = get_sub_field('third_text_block');
             <h2 class="title"><?=$hiw_title?></h2>
             <div class="content_right-text-container">
                 <div class="content_right-text-block">
-                    <div class="content_right-text-title"><img src="<?=$first_text_block['icon']?>" class="content_right-text-icon"><?=$first_text_block['title']?></div>
+                    <div class="icon-container" style="background-color: #FFF4F5;"><img src="<?=$first_text_block['icon']?>" class="content_right-text-icon"></div><div class="content_right-text-title"><?=$first_text_block['title']?></div>
                     <div class="content_right-text-subtitle"><?=$first_text_block['content']?>
                     </div>
                 </div>
                 <div class="content_right-text-block">
-                    <div class="content_right-text-title"><img src="<?=$second_text_block['icon']?>" class="content_right-text-icon"><?=$second_text_block['title']?></div>
+                    <div class="icon-container" style="background-color: #FFF6F3;"><img src="<?=$second_text_block['icon']?>" class="content_right-text-icon"></div><div class="content_right-text-title"><?=$second_text_block['title']?></div>
                     <div class="content_right-text-subtitle"><?=$second_text_block['content']?>
                     </div>
                 </div>
                 <div class="content_right-text-block">
-                    <div class="content_right-text-title"><img src="<?=$third_text_block['icon']?>" class="content_right-text-icon"><?=$third_text_block['title']?></div>
+                    <div class="icon-container" style="background-color: #F5F4FF;"><img src="<?=$third_text_block['icon']?>" class="content_right-text-icon"></div><div class="content_right-text-title"><?=$third_text_block['title']?></div>
                     <div class="content_right-text-subtitle"><?=$third_text_block['content']?>
                     </div>
                 </div>
