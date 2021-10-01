@@ -5180,6 +5180,7 @@ div.wpcf7 .wpcf7-form-control.wpcf7-submit {
 .masthead__text-title {
   font-size: 30px;
   font-weight: 800;
+  width: 60%;
   /* line-height: 1rem; */
 }
 .masthead__text-subtitle {
