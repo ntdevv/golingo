@@ -7,6 +7,6 @@ $contact_content = get_sub_field('contact_content');
         <div class="contact_section-title"><?=$contact_title?></div>
         <div class="contact_section-content"><?=$contact_content?></div>
         <div class="btn">Contact Us</div>
+
     </div>
-    
 </section>
