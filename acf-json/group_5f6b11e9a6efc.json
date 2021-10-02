@@ -631,7 +631,7 @@
                         {
                             "key": "field_6154aa01091bd",
                             "label": "Title",
-                            "name": "title",
+                            "name": "testimonial_title",
                             "type": "text",
                             "instructions": "",
                             "required": 0,
